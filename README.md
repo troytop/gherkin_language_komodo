@@ -1,11 +1,21 @@
-cucumber_language
-=================
+gherkin_language_komodo
+=======================
 
-Cucumber Language support for Komodo (UDL-based). Should work with Komodo 7-8.
+This is Craig N. Caroon's Gherkin Language add-on with a few minor modifications. 
+
+Forked from here:
+
+ https://github.com/ccaroon/gherkin_language
+
+UDL-based Komodo extension for the Gherkin language. 
+
+ https://github.com/gherkin/gherkin/wiki/Gherkin
+
+Should work with Komodo 7-9.
 
 Syntax Highlighting
 -------------------
-Listed below are the various types of Cucumber Syntax and the Komodo Element Type
+Listed below are the various types of Gherkin Syntax and the Komodo Element Type
 that defines it's color:
 
 * Comments     --> comments   --> `# this is a comment`
@@ -23,7 +33,7 @@ Code Intelligence
 * Tags         --> Triggered when you type an At Sign (@)
 * Placeholders --> Triggered when you type a left Angle Bracket (<)
 * Keywords     --> Triggered when you start typing something that looks like a
-                   Cucumber keyword.
+                   Gherkin keyword.
 
 Manual completion also supported for the above.
 
@@ -37,7 +47,7 @@ extention:
 
 1. cd to the source code directory
 2. `koext build`
-3. `cucumber_language-X.Y.Z-ko.xpi` should have been created.
+3. `gherkin_language-X.Y.Z-ko.xpi` should have been created.
 
 Installing
 ----------
